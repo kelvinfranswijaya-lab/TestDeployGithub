@@ -4,7 +4,9 @@
   "description": "",
   "main": "input-tooltip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,6 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "vite": "^8.3.5"
-  }
+  },
+  "devDependencies": {}
 }
